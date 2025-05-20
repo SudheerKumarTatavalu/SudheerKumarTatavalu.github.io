@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "title": "Power BI Health Analytics",
+    "description": "Designed KPI-driven dashboards with DAX formulas to evaluate U.S. hospital performance and patient outcomes using publicly available healthcare datasets (2019-2020).",
+    "image": "/shared/assets/images/projects/healthcare-dashboard.jpg",
+    "technologies": ["Power BI", "DAX", "Healthcare Data", "KPI Design"],
+    "github": "https://github.com/sudheerkumartatavalu/healthcare-analytics",
+    "live": null
+  },
+  {
+    "title": "YouTube Data Analysis",
+    "description": "Developed a scalable ETL pipeline with PySpark on AWS to clean and aggregate YouTube engagement data, enabling content optimization through Amazon QuickSight dashboards.",
+    "image": "/shared/assets/images/projects/youtube-analytics.jpg",
+    "technologies": ["AWS", "PySpark", "Amazon QuickSight", "ETL", "Data Visualization"],
+    "github": "https://github.com/sudheerkumartatavalu/youtube-analytics",
+    "live": null
+  },
+  {
+    "title": "Credit Card Fraud Insights Dashboard",
+    "description": "Built a dynamic Tableau dashboard to visualize fraud trends, conducting data wrangling and outlier detection in Python to support risk analysts in identifying suspicious patterns.",
+    "image": "/shared/assets/images/projects/fraud-dashboard.jpg",
+    "technologies": ["Tableau", "Python", "Data Wrangling", "Fraud Analytics"],
+    "github": "https://github.com/sudheerkumartatavalu/fraud-detection-dashboard",
+    "live": null
+  },
+  {
+    "title": "Business Performance Tracker",
+    "description": "Created a real-time KPI monitoring tool with a Flask backend and Power BI frontend, automating dashboard refresh workflows with AWS services to reduce manual report generation by 70%.",
+    "image": "/shared/assets/images/projects/business-tracker.jpg",
+    "technologies": ["Flask", "Power BI", "AWS", "Automation", "KPI Monitoring"],
+    "github": "https://github.com/sudheerkumartatavalu/business-performance-tracker",
+    "live": null
+  },
+  {
+    "title": "Logistics Optimization Dashboard",
+    "description": "Designed interactive Power BI dashboards for real-time transportation performance tracking, enhancing operational efficiency by 25% through data-driven insights and anomaly detection.",
+    "image": "/shared/assets/images/projects/logistics-dashboard.jpg",
+    "technologies": ["Power BI", "Python", "SQL", "Logistics Analytics"],
+    "github": "https://github.com/sudheerkumartatavalu/logistics-analytics",
+    "live": null
+  },
+  {
+    "title": "Automated KPI Reporting System",
+    "description": "Developed a daily automated KPI email summary using Python and AWS Lambda, streamlining communication across operations teams and standardizing data cleaning to reduce errors by 30%.",
+    "image": "/shared/assets/images/projects/kpi-reporting.jpg",
+    "technologies": ["Python", "AWS Lambda", "ETL", "Email Automation"],
+    "github": "https://github.com/sudheerkumartatavalu/automated-kpi-reporting",
+    "live": null
+  }
+]

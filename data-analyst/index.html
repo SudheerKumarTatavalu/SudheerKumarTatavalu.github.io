@@ -1,1 +1,193 @@
-<!-- Data Analyst Portfolio -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudheer Kumar Tatavalu | Data Analyst</title>
+  <meta name="description" content="Data Analyst portfolio showcasing projects in Power BI, Tableau, Python, and more.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="/shared/css/reset.css">
+  <link rel="stylesheet" href="/shared/css/variables.css">
+  <link rel="stylesheet" href="/shared/css/shared.css">
+  <link rel="stylesheet" href="/shared/css/components.css">
+  <link rel="stylesheet" href="/shared/css/responsive.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- JavaScript Files -->
+  <script src="/shared/js/include.js" defer></script>
+  <script src="/shared/js/load-data.js" defer></script>
+  <script src="/shared/js/main.js" defer></script>
+</head>
+<body class="analyst-theme">
+  <!-- Header (loaded via include.js) -->
+  <div data-include="header.html"></div>
+  
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Data Analyst with a Passion for Turning Data into Insights</h1>
+          <p class="hero-subtitle">Hi, I'm Sudheer Kumar. I specialize in SQL, Power BI, Python, and Tableau to extract and visualize insights that drive business decisions.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="resume.pdf" class="btn btn-outline" target="_blank">Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="/shared/assets/images/profile.jpg" alt="Sudheer Kumar Tatavalu - Data Analyst">
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="content-container">
+          <p class="mb-3">I'm an analytical and detail-oriented Data Analyst with 4+ years of experience in transforming data into actionable insights that drive business performance. My expertise lies in extracting, cleaning, analyzing, and visualizing data to support strategic decision-making.</p>
+          
+          <p class="mb-3">At Amazon Development Centre, I enhanced operational efficiency by 25% using Python and SQL to analyze logistics data. I designed real-time Power BI dashboards, automated report generation with AWS services, and collaborated across teams to improve data-driven workflows.</p>
+          
+          <p class="mb-3">Currently pursuing an M.S. in Data Science at the University of New Haven with a GPA of 3.93/4.0, I'm expanding my skills in statistical analysis, machine learning, and cloud-based data engineering.</p>
+          
+          <p>I believe in the power of clean, well-organized data visualization to tell compelling stories that help stakeholders make informed decisions.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="section bg-secondary" id="skills-section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <!-- Skills loaded dynamically from skills.json via load-data.js -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Project Highlights Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Project Highlights</h2>
+        <p class="section-subtitle">Here are some of my recent data analytics projects</p>
+        
+        <div class="projects-grid">
+          <!-- Top 3 projects shown here (manually for homepage) -->
+          <div class="project-card">
+            <img src="/shared/assets/images/projects/healthcare-dashboard.jpg" alt="Healthcare Dashboard" class="project-image">
+            <div class="project-content">
+              <h3 class="project-title">Power BI Health Analytics</h3>
+              <p class="project-description">Designed KPI-driven dashboards with DAX formulas to evaluate U.S. hospital performance and patient outcomes using publicly available healthcare datasets.</p>
+              <div class="project-tech">
+                <span class="project-tech-item">Power BI</span>
+                <span class="project-tech-item">DAX</span>
+                <span class="project-tech-item">Healthcare Data</span>
+                <span class="project-tech-item">KPI Design</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sudheerkumartatavalu/healthcare-analytics" class="btn btn-outline btn-sm" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="/shared/assets/images/projects/fraud-dashboard.jpg" alt="Fraud Dashboard" class="project-image">
+            <div class="project-content">
+              <h3 class="project-title">Credit Card Fraud Insights Dashboard</h3>
+              <p class="project-description">Built a dynamic Tableau dashboard to visualize fraud trends, conducting data wrangling and outlier detection in Python to support risk analysts.</p>
+              <div class="project-tech">
+                <span class="project-tech-item">Tableau</span>
+                <span class="project-tech-item">Python</span>
+                <span class="project-tech-item">Data Wrangling</span>
+                <span class="project-tech-item">Fraud Analytics</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sudheerkumartatavalu/fraud-detection-dashboard" class="btn btn-outline btn-sm" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="/shared/assets/images/projects/business-tracker.jpg" alt="Business Performance Tracker" class="project-image">
+            <div class="project-content">
+              <h3 class="project-title">Business Performance Tracker</h3>
+              <p class="project-description">Created a real-time KPI monitoring tool with a Flask backend and Power BI frontend, automating dashboard refresh workflows with AWS services.</p>
+              <div class="project-tech">
+                <span class="project-tech-item">Flask</span>
+                <span class="project-tech-item">Power BI</span>
+                <span class="project-tech-item">AWS</span>
+                <span class="project-tech-item">Automation</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sudheerkumartatavalu/business-performance-tracker" class="btn btn-outline btn-sm" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center mt-4">
+          <a href="projects.html" class="btn btn-primary">View All Projects</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section class="section bg-secondary" id="experience">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="content-container">
+          <div class="experience-item mb-4">
+            <div class="experience-header">
+              <h3>Data Analyst – Last Mile Analytics</h3>
+              <p class="experience-subtitle">Amazon Development Centre (India) Pvt. Ltd | August 2020 – July 2023</p>
+            </div>
+            <ul class="experience-list">
+              <li>Enhanced operational efficiency by 25% using Python and SQL to analyze logistics data and drive optimization.</li>
+              <li>Designed real-time Power BI dashboards for tracking key transportation metrics.</li>
+              <li>Automated weekly reports with Python and AWS CRON jobs, reducing manual efforts by 40%.</li>
+              <li>Conducted performance trend analysis and presented recommendations that improved planning accuracy.</li>
+              <li>Created anomaly detection dashboards for real-time logistics performance insights.</li>
+              <li>Developed a daily automated KPI email summary using Python and AWS Lambda, streamlining communication across ops teams.</li>
+            </ul>
+          </div>
+          
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>Associate Analyst</h3>
+              <p class="experience-subtitle">GlobalLogic Technologies Limited | October 2018 – October 2019</p>
+            </div>
+            <ul class="experience-list">
+              <li>Built dashboards using Power BI and Tableau to monitor KPIs across client accounts.</li>
+              <li>Developed and maintained ETL pipelines to improve data accuracy and accessibility.</li>
+              <li>Assisted in data modeling and ad hoc analysis, supporting quarterly business reviews and reports.</li>
+              <li>Streamlined data governance and ensured consistency across multiple internal systems.</li>
+              <li>Presented weekly data insights to cross-functional teams, enhancing business understanding of customer churn trends.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section" id="contact-section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="content-container">
+          <!-- Contact Card loaded via include.js -->
+          <div data-include="contact-card.html"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer (loaded via include.js) -->
+  <div data-include="footer.html"></div>
+</body>
+</html>

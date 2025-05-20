@@ -1,0 +1,121 @@
+/* Responsive Styles */
+
+/* Large Screens */
+@media (max-width: 1200px) {
+  :root {
+    --width-container: 96%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  :root {
+    --font-size-heading-1: 2.25rem;
+    --font-size-heading-2: 1.75rem;
+    --font-size-heading-3: 1.5rem;
+  }
+  
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hero-image {
+    order: -1;
+    margin-bottom: var(--space-lg);
+  }
+  
+  .hero-image img {
+    max-width: 300px;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+/* Mobile Landscape */
+@media (max-width: 768px) {
+  :root {
+    --space-xxl: 2rem;
+    --space-xl: 1.5rem;
+  }
+  
+  .header-container {
+    padding: var(--space-sm) var(--space-md);
+  }
+  
+  .mobile-nav-toggle {
+    display: block;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--bg-primary);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xl);
+    transition: var(--transition-normal);
+    box-shadow: var(--shadow-lg);
+    z-index: var(--z-index-modal);
+  }
+  
+  .nav-menu.active {
+    right: 0;
+  }
+  
+  .section {
+    padding: var(--space-xl) 0;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+  
+  .footer-col {
+    text-align: center;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 576px) {
+  :root {
+    --font-size-heading-1: 2rem;
+    --font-size-heading-2: 1.5rem;
+    --font-size-heading-3: 1.25rem;
+  }
+  
+  .container {
+    padding: 0 var(--space-md);
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-container {
+    padding: var(--space-lg) var(--space-md);
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .project-links {
+    flex-direction: column;
+  }
+}

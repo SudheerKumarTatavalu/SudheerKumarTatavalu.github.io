@@ -1,1 +1,173 @@
-<!-- Data Analyst Projects -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Sudheer Kumar Tatavalu - Data Analyst</title>
+  <meta name="description" content="Data Analytics projects showcasing expertise in Power BI, Tableau, SQL, Python, and AWS.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="/shared/css/reset.css">
+  <link rel="stylesheet" href="/shared/css/variables.css">
+  <link rel="stylesheet" href="/shared/css/shared.css">
+  <link rel="stylesheet" href="/shared/css/components.css">
+  <link rel="stylesheet" href="/shared/css/responsive.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- JavaScript Files -->
+  <script src="/shared/js/include.js" defer></script>
+  <script src="/shared/js/load-data.js" defer></script>
+  <script src="/shared/js/main.js" defer></script>
+</head>
+<body class="analyst-theme">
+  <!-- Header (loaded via include.js) -->
+  <div data-include="header.html"></div>
+  
+  <!-- Main Content -->
+  <main>
+    <!-- Page Header -->
+    <section class="section" id="page-header">
+      <div class="container">
+        <h1 class="section-title">Data Analytics Projects</h1>
+        <p class="section-subtitle">Showcasing my work in data visualization, dashboard development, and analytics</p>
+      </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section class="section" id="projects-section">
+      <div class="container">
+        <!-- Project Categories/Filters -->
+        <div class="project-filters mb-4">
+          <button class="project-filter-btn active" data-filter="all">All Projects</button>
+          <button class="project-filter-btn" data-filter="Power BI">Power BI</button>
+          <button class="project-filter-btn" data-filter="Tableau">Tableau</button>
+          <button class="project-filter-btn" data-filter="AWS">AWS</button>
+          <button class="project-filter-btn" data-filter="Python">Python</button>
+        </div>
+        
+        <!-- Projects Grid (loaded dynamically from analytics-projects.json) -->
+        <div class="projects-grid">
+          <!-- Projects loaded via load-data.js -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skills Summary Section -->
+    <section class="section bg-secondary" id="skills-summary">
+      <div class="container">
+        <h2 class="section-title">Data Analysis Skills</h2>
+        <div class="content-container">
+          <p class="mb-3">My data analysis projects leverage a combination of technical skills and business understanding to extract meaningful insights from complex datasets. Here's a summary of the key skills showcased in my projects:</p>
+          
+          <div class="skills-summary-grid">
+            <div class="skill-summary-item">
+              <h3>Data Visualization</h3>
+              <p>Creating interactive dashboards and visualizations using Power BI, Tableau, and Python libraries (Matplotlib, Seaborn) to communicate insights effectively.</p>
+            </div>
+            
+            <div class="skill-summary-item">
+              <h3>Data Wrangling & ETL</h3>
+              <p>Building robust ETL pipelines to clean, transform, and prepare data for analysis using Python, SQL, and AWS services.</p>
+            </div>
+            
+            <div class="skill-summary-item">
+              <h3>Dashboard Design</h3>
+              <p>Designing user-friendly dashboards with KPIs and metrics that enable stakeholders to track performance and make data-driven decisions.</p>
+            </div>
+            
+            <div class="skill-summary-item">
+              <h3>Performance Optimization</h3>
+              <p>Optimizing queries, reports, and dashboards for faster performance and better user experience.</p>
+            </div>
+            
+            <div class="skill-summary-item">
+              <h3>Statistical Analysis</h3>
+              <p>Applying statistical methods to analyze trends, identify patterns, and validate hypotheses using Python and R.</p>
+            </div>
+            
+            <div class="skill-summary-item">
+              <h3>Report Automation</h3>
+              <p>Automating data collection, analysis, and reporting processes to reduce manual effort and increase efficiency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section" id="contact-section">
+      <div class="container">
+        <h2 class="section-title">Interested in Collaboration?</h2>
+        <div class="content-container">
+          <!-- Contact Card loaded via include.js -->
+          <div data-include="contact-card.html"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer (loaded via include.js) -->
+  <div data-include="footer.html"></div>
+
+  <style>
+    /* Project page specific styles */
+    .project-filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      margin-bottom: var(--space-xl);
+    }
+    
+    .project-filter-btn {
+      padding: var(--space-xs) var(--space-md);
+      border-radius: var(--radius-md);
+      background-color: var(--bg-tertiary);
+      color: var(--text-secondary);
+      font-weight: 500;
+      transition: var(--transition-fast);
+      border: none;
+      cursor: pointer;
+    }
+    
+    .project-filter-btn:hover {
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+    }
+    
+    .project-filter-btn.active {
+      background-color: var(--primary-color);
+      color: var(--text-white);
+    }
+    
+    .skills-summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: var(--space-lg);
+      margin-top: var(--space-xl);
+    }
+    
+    .skill-summary-item {
+      background-color: var(--bg-primary);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg);
+      box-shadow: var(--shadow-sm);
+    }
+    
+    .skill-summary-item h3 {
+      color: var(--primary-color);
+      margin-bottom: var(--space-sm);
+      font-size: var(--font-size-lg);
+    }
+    
+    #page-header {
+      padding-top: 120px;
+      padding-bottom: var(--space-lg);
+    }
+  </style>
+</body>
+</html>

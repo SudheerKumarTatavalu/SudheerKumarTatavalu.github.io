@@ -1,1 +1,301 @@
-<!-- Data Scientist Portfolio -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudheer Kumar Tatavalu | Data Scientist</title>
+  <meta name="description" content="Data Scientist portfolio showcasing machine learning projects, NLP, deep learning, and cloud-based data solutions.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="/shared/css/reset.css">
+  <link rel="stylesheet" href="/shared/css/variables.css">
+  <link rel="stylesheet" href="/shared/css/shared.css">
+  <link rel="stylesheet" href="/shared/css/components.css">
+  <link rel="stylesheet" href="/shared/css/responsive.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- JavaScript Files -->
+  <script src="/shared/js/include.js" defer></script>
+  <script src="/shared/js/load-data.js" defer></script>
+  <script src="/shared/js/main.js" defer></script>
+</head>
+<body class="scientist-theme">
+  <!-- Header (loaded via include.js) -->
+  <div data-include="header.html"></div>
+  
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Data Scientist Turning Complex Data into Intelligent Solutions</h1>
+          <p class="hero-subtitle">Hi, I'm Sudheer Kumar. I specialize in machine learning, NLP, and cloud-based solutions to solve complex data problems and drive business value.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="resume.pdf" class="btn btn-outline" target="_blank">Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="/shared/assets/images/profile.jpg" alt="Sudheer Kumar Tatavalu - Data Scientist">
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="content-container">
+          <p class="mb-3">I'm an insight-driven Data Scientist with proven experience deploying machine learning solutions in cloud environments. My expertise spans Python, R, SQL, and cloud platforms like AWS, where I've successfully designed and deployed end-to-end ML pipelines for fraud detection, recommendation systems, and real-time optimization.</p>
+          
+          <p class="mb-3">At Amazon Development Centre, I enhanced operational efficiency by 25% through applying machine learning and statistical modeling to optimize route planning and resource allocation. I deployed real-time logistics optimization models using Flask on AWS EC2, improving anomaly detection capabilities and overall operational performance.</p>
+          
+          <p class="mb-3">Currently pursuing an M.S. in Data Science at the University of New Haven with a GPA of 3.93/4.0, I'm expanding my knowledge in advanced machine learning techniques, deep learning, and natural language processing. I'm passionate about combining statistical analysis with cross-functional collaboration to drive automation and enhance decision-making.</p>
+          
+          <p>I believe in building scalable, production-ready data science solutions that deliver measurable business value through automation, optimization, and actionable insights.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="section bg-secondary" id="skills-section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <!-- Skills loaded dynamically from skills.json via load-data.js -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Project Highlights Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Project Highlights</h2>
+        <p class="section-subtitle">Here are some of my recent machine learning projects</p>
+        
+        <div class="projects-grid">
+          <!-- Top 3 projects shown here (manually for homepage) -->
+          <div class="project-card">
+            <img src="/shared/assets/images/projects/fraud-detection.jpg" alt="Fraud Detection" class="project-image">
+            <div class="project-content">
+              <h3 class="project-title">Credit Card Fraud Detection</h3>
+              <p class="project-description">Developed a logistic regression model to detect fraudulent credit card transactions with 98% accuracy, using feature engineering and model evaluation.</p>
+              <div class="project-tech">
+                <span class="project-tech-item">Python</span>
+                <span class="project-tech-item">Scikit-Learn</span>
+                <span class="project-tech-item">Logistic Regression</span>
+                <span class="project-tech-item">Tableau</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sudheerkumartatavalu/fraud-detection" class="btn btn-outline btn-sm" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="/shared/assets/images/projects/recommender-system.jpg" alt="Recommender System" class="project-image">
+            <div class="project-content">
+              <h3 class="project-title">AWS-Based Recommender System</h3>
+              <p class="project-description">Designed and implemented a cloud-native architecture for a content-based recommender engine using Amazon S3 and DynamoDB for fast, structured access.</p>
+              <div class="project-tech">
+                <span class="project-tech-item">AWS S3</span>
+                <span class="project-tech-item">DynamoDB</span>
+                <span class="project-tech-item">SageMaker</span>
+                <span class="project-tech-item">Cloud Architecture</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sudheerkumartatavalu/aws-recommender" class="btn btn-outline btn-sm" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="/shared/assets/images/projects/ml-deployment.jpg" alt="ML Deployment Pipeline" class="project-image">
+            <div class="project-content">
+              <h3 class="project-title">Team-Based ML Deployment Pipeline</h3>
+              <p class="project-description">Collaborated with a cross-functional team to deploy machine learning models as RESTful APIs using Flask, enabling seamless integration into AWS infrastructure.</p>
+              <div class="project-tech">
+                <span class="project-tech-item">Flask</span>
+                <span class="project-tech-item">AWS</span>
+                <span class="project-tech-item">RESTful APIs</span>
+                <span class="project-tech-item">ML Deployment</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sudheerkumartatavalu/ml-deployment-pipeline" class="btn btn-outline btn-sm" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center mt-4">
+          <a href="projects.html" class="btn btn-primary">View All Projects</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section class="section bg-secondary" id="experience">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="content-container">
+          <div class="experience-item mb-4">
+            <div class="experience-header">
+              <h3>Transportation Analyst</h3>
+              <p class="experience-subtitle">Amazon Development Centre (India) Pvt. Ltd | August 2020 – July 2023</p>
+            </div>
+            <ul class="experience-list">
+              <li>Enhanced operational efficiency by 25% using Python and SQL to analyze logistics data and drive optimization.</li>
+              <li>Applied machine learning and statistical modeling to optimize route planning and resource allocation.</li>
+              <li>Deployed a real-time logistics optimization model using Flask on AWS EC2, improving anomaly detection.</li>
+              <li>Used ClearML to manage NLP experiment tracking, metric monitoring, and version control during internal model iterations.</li>
+              <li>Conducted exploratory data analysis (EDA) to uncover performance trends and improve planning accuracy.</li>
+              <li>Contributed to cross-team initiatives to refactor and standardize ML model deployment practices across logistics analytics.</li>
+            </ul>
+          </div>
+          
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>Associate Analyst</h3>
+              <p class="experience-subtitle">GlobalLogic Technologies Limited | October 2018 – October 2019</p>
+            </div>
+            <ul class="experience-list">
+              <li>Conducted in-depth data analysis on client projects, employing statistical modeling to enhance decision-making processes.</li>
+              <li>Assisted in the design and implementation of machine learning models for predictive analytics, improving forecast accuracy.</li>
+              <li>Developed and maintained efficient ETL pipelines to streamline data processing for analysis and reporting.</li>
+              <li>Led efforts to enhance data management practices, ensuring data integrity and consistency across various platforms.</li>
+              <li>Built and maintained data visualization tools in Tableau and Power BI to track key performance indicators.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ML Workflow Section -->
+    <section class="section" id="ml-workflow">
+      <div class="container">
+        <h2 class="section-title">My Data Science Workflow</h2>
+        <div class="content-container">
+          <div class="workflow-grid">
+            <div class="workflow-item">
+              <div class="workflow-number">1</div>
+              <div class="workflow-content">
+                <h3>Problem Definition</h3>
+                <p>Clearly define the business problem and translate it into a data science task with measurable objectives and success criteria.</p>
+              </div>
+            </div>
+            
+            <div class="workflow-item">
+              <div class="workflow-number">2</div>
+              <div class="workflow-content">
+                <h3>Data Collection & Exploration</h3>
+                <p>Gather relevant data from various sources and perform exploratory data analysis to understand patterns, relationships, and anomalies.</p>
+              </div>
+            </div>
+            
+            <div class="workflow-item">
+              <div class="workflow-number">3</div>
+              <div class="workflow-content">
+                <h3>Data Preprocessing</h3>
+                <p>Clean, transform, and prepare data for modeling. This includes handling missing values, encoding categorical variables, and feature engineering.</p>
+              </div>
+            </div>
+            
+            <div class="workflow-item">
+              <div class="workflow-number">4</div>
+              <div class="workflow-content">
+                <h3>Model Development</h3>
+                <p>Select and build appropriate machine learning models, fine-tune hyperparameters, and validate using cross-validation techniques.</p>
+              </div>
+            </div>
+            
+            <div class="workflow-item">
+              <div class="workflow-number">5</div>
+              <div class="workflow-content">
+                <h3>Evaluation & Iteration</h3>
+                <p>Rigorously evaluate model performance against business metrics, iteratively refine the model, and ensure robustness.</p>
+              </div>
+            </div>
+            
+            <div class="workflow-item">
+              <div class="workflow-number">6</div>
+              <div class="workflow-content">
+                <h3>Deployment & Monitoring</h3>
+                <p>Deploy models to production environments, implement monitoring systems, and establish feedback loops for continuous improvement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section bg-secondary" id="contact-section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="content-container">
+          <!-- Contact Card loaded via include.js -->
+          <div data-include="contact-card.html"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer (loaded via include.js) -->
+  <div data-include="footer.html"></div>
+  
+  <style>
+    /* Scientist-specific styles */
+    .workflow-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: var(--space-lg);
+      margin-top: var(--space-xl);
+    }
+    
+    .workflow-item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-md);
+      padding: var(--space-lg);
+      background-color: var(--bg-secondary);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-normal);
+    }
+    
+    .workflow-item:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+    
+    .workflow-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-full);
+      background-color: var(--primary-color);
+      color: var(--text-white);
+      font-weight: 700;
+      font-size: var(--font-size-lg);
+      flex-shrink: 0;
+    }
+    
+    .workflow-content h3 {
+      margin-bottom: var(--space-sm);
+      color: var(--text-primary);
+      font-size: var(--font-size-lg);
+    }
+    
+    .workflow-content p {
+      color: var(--text-secondary);
+    }
+  </style>
+</body>
+</html>

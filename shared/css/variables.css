@@ -1,0 +1,101 @@
+/* Variables CSS */
+:root {
+  /* Colors */
+  --primary-color: #4361ee;
+  --primary-dark: #3a56d4;
+  --secondary-color: #2ec4b6;
+  --accent-color: #ff9f1c;
+  --success-color: #06d6a0;
+  --warning-color: #ffd166;
+  --danger-color: #ef476f;
+  
+  /* Text Colors */
+  --text-primary: #292f36;
+  --text-secondary: #595f67;
+  --text-light: #7d8287;
+  --text-white: #ffffff;
+  
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #e9ecef;
+  --bg-dark: #343a40;
+  
+  /* Border Colors */
+  --border-light: #e1e4e8;
+  --border-medium: #d1d5da;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+  
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+  
+  /* Content Width */
+  --width-container: 1200px;
+  --width-content: 800px;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-xxl: 1.5rem;
+  --font-size-heading-1: 2.5rem;
+  --font-size-heading-2: 2rem;
+  --font-size-heading-3: 1.75rem;
+  
+  /* Z-index */
+  --z-index-low: 10;
+  --z-index-mid: 50;
+  --z-index-high: 100;
+  --z-index-modal: 1000;
+}
+
+/* Dark Mode Variables (for future use) */
+.dark-theme {
+  --primary-color: #4cc9f0;
+  --primary-dark: #3a86ff;
+  --bg-primary: #1a1a2e;
+  --bg-secondary: #16213e;
+  --bg-tertiary: #0f3460;
+  --text-primary: #f5f5f5;
+  --text-secondary: #ccd5df;
+  --text-light: #a8b0bb;
+  --border-light: #343a40;
+  --border-medium: #495057;
+}
+
+/* Role-specific color themes */
+.analyst-theme {
+  /* Slightly more calm, business-focused blues */
+  --primary-color: #3a86ff;
+  --secondary-color: #0077b6;
+  --accent-color: #00b4d8;
+}
+
+.scientist-theme {
+  /* More tech-forward, innovation colors with purple */
+  --primary-color: #7209b7;
+  --secondary-color: #4361ee;
+  --accent-color: #4cc9f0;
+}

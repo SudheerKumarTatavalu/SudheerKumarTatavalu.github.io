@@ -1,1 +1,61 @@
-{}
+{
+  "Programming Languages": [
+    "Python",
+    "R",
+    "SQL",
+    "HTML",
+    "JavaScript"
+  ],
+  "Analytics & BI Tools": [
+    "Power BI",
+    "Tableau",
+    "Excel (Pivot Tables, VLOOKUP, Macros)",
+    "Amazon QuickSight"
+  ],
+  "Data Manipulation & Visualization": [
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "Plotly",
+    "dplyr (R)",
+    "ggplot2 (R)"
+  ],
+  "Databases & Cloud": [
+    "MySQL",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "AWS (S3, EC2, QuickSight, SageMaker)",
+    "Microsoft Azure",
+    "AWS DynamoDB"
+  ],
+  "ETL & Data Pipelines": [
+    "PySpark",
+    "AWS S3",
+    "CRON jobs",
+    "Flask (for automation)"
+  ],
+  "Statistical Analysis": [
+    "A/B Testing",
+    "Hypothesis Testing",
+    "Time Series Forecasting",
+    "Regression",
+    "ANOVA"
+  ],
+  "Machine Learning": [
+    "Scikit-learn",
+    "XGBoost",
+    "TensorFlow",
+    "Keras",
+    "Neural Networks",
+    "Natural Language Processing",
+    "BERT"
+  ],
+  "Soft Skills": [
+    "Communication",
+    "Cross-Functional Collaboration",
+    "Problem Solving",
+    "Critical Thinking",
+    "Project Management"
+  ]
+}

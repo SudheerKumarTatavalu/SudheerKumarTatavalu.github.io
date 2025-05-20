@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "title": "Credit Card Fraud Detection",
+    "description": "Developed a logistic regression model to detect fraudulent credit card transactions with 98% accuracy, using feature engineering and model evaluation visualized through interactive Tableau dashboards.",
+    "image": "/shared/assets/images/projects/fraud-detection.jpg",
+    "technologies": ["Python", "Scikit-Learn", "Logistic Regression", "Tableau", "Feature Engineering"],
+    "github": "https://github.com/sudheerkumartatavalu/fraud-detection",
+    "live": null
+  },
+  {
+    "title": "AWS-Based Recommender System",
+    "description": "Designed and implemented a cloud-native architecture for a content-based recommender engine using Amazon S3 for scalable data storage and DynamoDB for fast, structured metadata access.",
+    "image": "/shared/assets/images/projects/recommender-system.jpg",
+    "technologies": ["AWS S3", "DynamoDB", "SageMaker", "Recommendation Algorithms", "Cloud Architecture"],
+    "github": "https://github.com/sudheerkumartatavalu/aws-recommender",
+    "live": null
+  },
+  {
+    "title": "Team-Based ML Deployment Pipeline",
+    "description": "Collaborated with a cross-functional team to deploy machine learning models as RESTful APIs using Flask, enabling seamless integration into existing AWS infrastructure with real-time monitoring dashboards.",
+    "image": "/shared/assets/images/projects/ml-deployment.jpg",
+    "technologies": ["Flask", "AWS", "RESTful APIs", "ML Deployment", "Team Collaboration"],
+    "github": "https://github.com/sudheerkumartatavalu/ml-deployment-pipeline",
+    "live": null
+  },
+  {
+    "title": "Real-time Logistics Optimization",
+    "description": "Deployed a real-time logistics optimization model using Flask on AWS EC2, improving anomaly detection and using ClearML for NLP experiment tracking, metric monitoring, and version control.",
+    "image": "/shared/assets/images/projects/logistics-optimization.jpg",
+    "technologies": ["Flask", "AWS EC2", "ClearML", "NLP", "Anomaly Detection"],
+    "github": "https://github.com/sudheerkumartatavalu/logistics-optimization",
+    "live": null
+  },
+  {
+    "title": "YouTube Content Performance Predictor",
+    "description": "Created a machine learning pipeline to predict content performance metrics using historical YouTube data, leveraging PySpark for data processing and Amazon QuickSight for visualization.",
+    "image": "/shared/assets/images/projects/youtube-predictor.jpg",
+    "technologies": ["Machine Learning", "PySpark", "AWS", "Amazon QuickSight", "Predictive Analytics"],
+    "github": "https://github.com/sudheerkumartatavalu/youtube-performance-predictor",
+    "live": null
+  },
+  {
+    "title": "Healthcare Patient Outcome Prediction",
+    "description": "Applied machine learning models to predict patient outcomes from healthcare datasets, creating interactive Power BI dashboards with DAX-based KPIs to support operational decision-making.",
+    "image": "/shared/assets/images/projects/healthcare-ml.jpg",
+    "technologies": ["Machine Learning", "Python", "Power BI", "DAX", "Healthcare Analytics"],
+    "github": "https://github.com/sudheerkumartatavalu/healthcare-prediction",
+    "live": null
+  }
+]

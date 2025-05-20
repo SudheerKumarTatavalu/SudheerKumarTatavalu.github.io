@@ -1,1 +1,221 @@
-<!-- Data Scientist Projects -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Sudheer Kumar Tatavalu - Data Scientist</title>
+  <meta name="description" content="Data Science and Machine Learning projects showcasing expertise in Python, AWS, NLP, and cloud-based solutions.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="/shared/css/reset.css">
+  <link rel="stylesheet" href="/shared/css/variables.css">
+  <link rel="stylesheet" href="/shared/css/shared.css">
+  <link rel="stylesheet" href="/shared/css/components.css">
+  <link rel="stylesheet" href="/shared/css/responsive.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- JavaScript Files -->
+  <script src="/shared/js/include.js" defer></script>
+  <script src="/shared/js/load-data.js" defer></script>
+  <script src="/shared/js/main.js" defer></script>
+</head>
+<body class="scientist-theme">
+  <!-- Header (loaded via include.js) -->
+  <div data-include="header.html"></div>
+  
+  <!-- Main Content -->
+  <main>
+    <!-- Page Header -->
+    <section class="section" id="page-header">
+      <div class="container">
+        <h1 class="section-title">Machine Learning Projects</h1>
+        <p class="section-subtitle">Showcasing my work in data science, machine learning, and cloud-based solutions</p>
+      </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section class="section" id="projects-section">
+      <div class="container">
+        <!-- Project Categories/Filters -->
+        <div class="project-filters mb-4">
+          <button class="project-filter-btn active" data-filter="all">All Projects</button>
+          <button class="project-filter-btn" data-filter="Machine Learning">ML Models</button>
+          <button class="project-filter-btn" data-filter="AWS">AWS</button>
+          <button class="project-filter-btn" data-filter="NLP">NLP</button>
+          <button class="project-filter-btn" data-filter="Deployment">Deployment</button>
+        </div>
+        
+        <!-- Projects Grid (loaded dynamically from ml-projects.json) -->
+        <div class="projects-grid">
+          <!-- Projects loaded via load-data.js -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Technical Expertise Section -->
+    <section class="section bg-secondary" id="technical-expertise">
+      <div class="container">
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="content-container">
+          <p class="mb-4">My data science and machine learning projects leverage a combination of technical skills and domain knowledge to build robust, scalable solutions. Here's an overview of the key technologies and methodologies I work with:</p>
+          
+          <div class="expertise-grid">
+            <div class="expertise-item">
+              <h3>Machine Learning</h3>
+              <ul class="expertise-list">
+                <li>Supervised Learning (Classification, Regression)</li>
+                <li>Unsupervised Learning (Clustering, Dimensionality Reduction)</li>
+                <li>Feature Engineering & Selection</li>
+                <li>Model Evaluation & Validation</li>
+                <li>Ensemble Methods</li>
+              </ul>
+            </div>
+            
+            <div class="expertise-item">
+              <h3>Deep Learning</h3>
+              <ul class="expertise-list">
+                <li>Neural Networks (CNNs, RNNs)</li>
+                <li>Transfer Learning</li>
+                <li>NLP Techniques (BERT, word embeddings)</li>
+                <li>TensorFlow & Keras</li>
+                <li>PyTorch</li>
+              </ul>
+            </div>
+            
+            <div class="expertise-item">
+              <h3>Model Deployment</h3>
+              <ul class="expertise-list">
+                <li>Flask API Development</li>
+                <li>AWS SageMaker</li>
+                <li>Docker Containerization</li>
+                <li>RESTful Services</li>
+                <li>Monitoring & Maintenance</li>
+              </ul>
+            </div>
+            
+            <div class="expertise-item">
+              <h3>Big Data Technologies</h3>
+              <ul class="expertise-list">
+                <li>Apache Spark (PySpark)</li>
+                <li>AWS S3 & EC2</li>
+                <li>Data Pipelines</li>
+                <li>ETL Processes</li>
+                <li>NoSQL Databases (DynamoDB)</li>
+              </ul>
+            </div>
+            
+            <div class="expertise-item">
+              <h3>Software Engineering</h3>
+              <ul class="expertise-list">
+                <li>Version Control (Git)</li>
+                <li>CI/CD Pipelines</li>
+                <li>Code Quality & Testing</li>
+                <li>Documentation</li>
+                <li>Agile Development</li>
+              </ul>
+            </div>
+            
+            <div class="expertise-item">
+              <h3>Data Analysis</h3>
+              <ul class="expertise-list">
+                <li>Statistical Analysis</li>
+                <li>Exploratory Data Analysis</li>
+                <li>Visualization (Matplotlib, Seaborn)</li>
+                <li>Hypothesis Testing</li>
+                <li>Time Series Analysis</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section" id="contact-section">
+      <div class="container">
+        <h2 class="section-title">Interested in Collaboration?</h2>
+        <div class="content-container">
+          <!-- Contact Card loaded via include.js -->
+          <div data-include="contact-card.html"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer (loaded via include.js) -->
+  <div data-include="footer.html"></div>
+
+  <style>
+    /* Project page specific styles */
+    .project-filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      margin-bottom: var(--space-xl);
+    }
+    
+    .project-filter-btn {
+      padding: var(--space-xs) var(--space-md);
+      border-radius: var(--radius-md);
+      background-color: var(--bg-tertiary);
+      color: var(--text-secondary);
+      font-weight: 500;
+      transition: var(--transition-fast);
+      border: none;
+      cursor: pointer;
+    }
+    
+    .project-filter-btn:hover {
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+    }
+    
+    .project-filter-btn.active {
+      background-color: var(--primary-color);
+      color: var(--text-white);
+    }
+    
+    .expertise-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: var(--space-lg);
+      margin-top: var(--space-xl);
+    }
+    
+    .expertise-item {
+      background-color: var(--bg-primary);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg);
+      box-shadow: var(--shadow-sm);
+    }
+    
+    .expertise-item h3 {
+      color: var(--primary-color);
+      margin-bottom: var(--space-md);
+      font-size: var(--font-size-lg);
+      border-bottom: 2px solid var(--border-light);
+      padding-bottom: var(--space-sm);
+    }
+    
+    .expertise-list {
+      list-style: disc;
+      padding-left: var(--space-lg);
+    }
+    
+    .expertise-list li {
+      margin-bottom: var(--space-xs);
+      color: var(--text-secondary);
+    }
+    
+    #page-header {
+      padding-top: 120px;
+      padding-bottom: var(--space-lg);
+    }
+  </style>
+</body>
+</html>
